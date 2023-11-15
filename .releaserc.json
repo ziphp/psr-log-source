@@ -1,0 +1,10 @@
+{
+  "tagFormat": "${version}",
+  "branches": ["master"],
+  "plugins": [
+    ["@semantic-release/commit-analyzer", {
+      "preset": "conventionalcommits"
+    }],
+    "@semantic-release/github",
+    "@semantic-release/release-notes-generator"]
+}
