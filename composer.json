@@ -45,7 +45,7 @@
     },
     "autoload-dev": {
         "classmap": [
-            "vendor/yiisoft/yii2/Yii.php"
+            "vendor/ziphp/ziphp/framework/Yii.php"
         ]
     },
     "extra": {
