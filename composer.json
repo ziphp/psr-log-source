@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-psr-log-source",
+    "name": "ziphp/psr-log-source",
     "description": "A PSR LoggerInterface implementation that routes to the Yii logger",
     "keywords": [
         "yii2",
@@ -10,11 +10,8 @@
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-psr-log-source/issues",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2-psr-log-source"
+        "issues": "https://github.com/ziphp/psr-log-source/issues",
+        "source": "https://github.com/ziphp/psr-log-source"
     },
     "authors": [
         {
@@ -24,7 +21,7 @@
     ],
     "require": {
         "php": ">=8",
-        "yiisoft/yii2": ">=2.0.4",
+        "ziphp/ziphp": ">=5.0.0",
         "psr/log": "^3"
     },
     "require-dev": {
@@ -53,7 +50,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "6.0.x-dev"
         }
     },
     "provide": {
@@ -61,7 +58,7 @@
     },
     "config": {
         "allow-plugins": {
-            "yiisoft/yii2-composer": true,
+            "ziphp/zipper": true,
             "captainhook/plugin-composer": true
         }
     }
